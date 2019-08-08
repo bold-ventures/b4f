@@ -9,10 +9,16 @@ module.exports = {
   },
   extends: [
     '@nuxtjs',
-    'plugin:nuxt/recommended'
+    'airbnb-base'
   ],
   // add your custom rules here
   rules: {
-    'nuxt/no-cjs-in-config': 'off'
-  }
+    'import/extensions': ['error', 'always', {
+      js: 'never',
+      vue: 'never',
+    }],
+  },
+  plugins: [
+    'html',
+  ],
 }

@@ -1,0 +1,15 @@
+@mixin mq($from, $until: false) {
+  @if $from == false {
+      @media screen and (max-width: #{$until - 1}) {
+          @content;
+      }
+  } @else if $until != false {
+      @media screen and (min-width: #{$from}) and (max-width: #{$until - 1}) {
+          @content;
+      }
+  } @else {
+      @media screen and (min-width: #{$from}) {
+          @content;
+      }
+  }
+}

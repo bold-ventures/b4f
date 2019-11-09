@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#ffcc003f",
+        "activityBar.foreground": "#ffedf0d8",
+        "activityBar.inactiveForeground": "#f0b7cbbb"
+    },
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "git.ignoreLimitWarning": true
+}

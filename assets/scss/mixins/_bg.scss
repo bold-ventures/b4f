@@ -1,4 +1,3 @@
-
 @mixin bg-url($url, $url2x: false, $webp1x: false, $webp2x: false) {
   background-image: url($url);
   @if $webp1x {
